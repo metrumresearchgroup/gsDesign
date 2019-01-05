@@ -1271,7 +1271,7 @@ print.gsSurv <- function(x, digits = 2, ...) {
   }
 }
 
-# xtable.gsSurv function [sinew] ----
+#' @export
 xtable.gsSurv <- function(x, caption = NULL, label = NULL, align = NULL, digits = NULL,
                           display = NULL, auto = FALSE, footnote = NULL, fnwid = "9cm", timename = "months", ...) {
   k <- x$k
